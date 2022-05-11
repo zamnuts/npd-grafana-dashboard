@@ -1,0 +1,19 @@
+--- node-problem-detector_rev1.json	2022-05-11 05:32:40.142303801 -0700
++++ node-problem-detector.json	2022-05-11 06:36:26.320220513 -0700
+@@ -555,6 +555,16 @@
+   "templating": {
+     "list": [
+       {
++        "hide": 0,
++        "label": "datasource",
++        "name": "DS_PROMETHEUS",
++        "options": [],
++        "query": "prometheus",
++        "refresh": 1,
++        "regex": "",
++        "type": "datasource"
++      },
++      {
+         "current": {},
+         "datasource": {
+           "type": "prometheus",
